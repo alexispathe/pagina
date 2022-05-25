@@ -1,3 +1,5 @@
+Comandos.....
+
 //Crear un usuario y correo
 git config --global user.name "Alexis pathe"
 git config --global user.email "alexispathenegocios@gmail.com"
@@ -27,6 +29,8 @@ git show
 
 //Ignorar archivos
 .gitignore
+
+
 //Crear ramas
 git brench header
 
