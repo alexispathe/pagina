@@ -13,7 +13,7 @@ git config --global --unset-all user.email;
 git help
 
 //Agregar un archivo al state de git
-git add . ó git add -all ó git add index.html
+git add . ó git add --all ó git add index.html
 
 //Ver el estado 
 git status
