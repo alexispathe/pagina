@@ -24,8 +24,11 @@ git commit -m "Primer commit"
 //Version mas corta
 git commit -am "Segundo commit"
 
-//Ver los cambios realizados
+//Ver los cambios realizados con el penultimo y ultimo commit
 git show 
+
+//Eliminar un archivo del commit en ese momento
+git rm --cached index.html
 
 //Ignorar archivos
 .gitignore
