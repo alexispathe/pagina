@@ -1,0 +1,26 @@
+//Crear un usuario y correo
+git config --global user.name "Alexis pathe"
+git config --global user.email "alexispathenegocios@gmail.com"
+// Ver configuracion de git 
+git config --list
+
+//borrar una accion global
+git config --global --unset-all user.email;
+
+//Ayuda en los comandos
+git help
+
+//Agregar un archivo al state de git
+git add . ó git add -all ó git add index.html
+
+//Ver el estado 
+git status
+
+//Hacer un commit
+git commit -m "Primer commit"
+
+//Version mas corta
+git commit -am "Segundo commit"
+
+//Crear ramas
+git brench header
