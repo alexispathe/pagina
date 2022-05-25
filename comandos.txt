@@ -22,5 +22,11 @@ git commit -m "Primer commit"
 //Version mas corta
 git commit -am "Segundo commit"
 
+//Ver los cambios realizados
+git show 
+
+//Ignorar archivos
+.gitignore
 //Crear ramas
 git brench header
+
