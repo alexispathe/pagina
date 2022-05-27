@@ -55,4 +55,18 @@ git branch header
 //Fusionar ramas
 git merge nombrerama
 
+//Hacer un pull para devolver los archivos del repositorio remoto
+git pull origin main ó git pull origin main --allow-unrelated-histories
+
 //Subir repositorio de una cuenta local a GITHUB
+
+git branch -m main 
+git remote add origin http.....
+
+git push origin main 
+
+//ver en que repositorio nos encontramos 
+git remote -v
+
+//Borrar el repositorio remote el cual nos encontramos para agregar otro
+git remote rm origin
