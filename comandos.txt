@@ -52,3 +52,6 @@ git reset --hard [codigolog] //aqui eliminamos los cambios y los commits
 //Crear ramas
 git brench header
 
+//Fusionar ramas
+git merge nombrerama
+
