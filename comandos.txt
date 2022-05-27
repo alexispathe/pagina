@@ -34,6 +34,21 @@ git rm --cached index.html
 .gitignore
 
 
+//Regresar en el tiempo
+git checkout [Aqui ponemos el log]
+
+//Poner un nombre para la rama 
+git switch -c datos
+
+//Alias en git
+git config --global alias.menos "git log --oneline --decorate --all --graph"
+
+//Regresar en el tiempo de forma suave
+git reset --soft [codigolog] //aqui perdemos los commit pero no los cambios
+
+//Regresar en el tiempo de forma suave
+git reset --hard [codigolog] //aqui eliminamos los cambios y los commits
+
 //Crear ramas
 git brench header
 
