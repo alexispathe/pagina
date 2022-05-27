@@ -50,8 +50,9 @@ git reset --soft [codigolog] //aqui perdemos los commit pero no los cambios
 git reset --hard [codigolog] //aqui eliminamos los cambios y los commits
 
 //Crear ramas
-git brench header
+git branch header
 
 //Fusionar ramas
 git merge nombrerama
 
+//Subir repositorio de una cuenta local a GITHUB
